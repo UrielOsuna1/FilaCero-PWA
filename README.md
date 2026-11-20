@@ -113,3 +113,17 @@ La suite automatizada verifica validaciones, reglas de triaje, firma y lectura e
 La **PWA paciente** es el producto principal de este repositorio. El archivo del proyecto especifica que administración de salas, escaneo de QR en ventanilla y cierre de atención competen a sistemas externos. Para permitir una demostración integral, se incluye un **simulador de recepción** `/#/admin`; no debe confundirse con el panel administrativo clínico terminado.
 
 **Siguiente paso propuesto:** conectar una interfaz administrativa autenticada de la clínica y validar sus reglas de triaje, documentos y permisos antes de crear una versión `v1.0.0` de uso real.
+
+
+## Practica de Entrega Continua
+
+Se implemento un pipeline de Entrega Continua
+utilizando GitHub y CircleCI.
+
+El sistema automatiza:
+- Instalacion de dependencias.
+- Verificacion del codigo.
+- Ejecucion de pruebas.
+- Generacion de artefactos.
+
+Herramienta utilizada: CircleCI.
